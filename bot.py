@@ -156,7 +156,7 @@ async def phone_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "✅ *Спасибо! Ваша заявка принята.*\n\n"
         "Наш менеджер свяжется с вами в ближайшее время 🚀\n\n"
         "Если у вас есть вопросы — напишите нам:\n"
-        "📌 <a href='https://www.academytop.ru'>Сайт Академии TOP</a>",
+        "📌 <a href='https://volgograd.top-academy.ru/'>Сайт Академии TOP</a>",
         parse_mode="HTML",
         reply_markup=ReplyKeyboardRemove()
     )
@@ -278,4 +278,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
